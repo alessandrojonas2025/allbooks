@@ -1,0 +1,6 @@
+git init
+git branch -M main
+git remote add origin https://github.com/alessandrojonas2025/allbooks.git
+git status /* exibir status */
+git add . /* adiciona todos os arquivos */
+git comit -m "Adicinei projeto inicial" /* comit mais a mensagem */
