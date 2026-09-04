@@ -2,6 +2,8 @@
 
 Boas Vindas a API do AllBooks
 
+Ale 18:41 Online
+
 Modificação da nova-funcionalidade
 
 O AllBooks é uma loja virtual que vende livros da Casa do Código. 
