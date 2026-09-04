@@ -9,3 +9,13 @@ git push -u origin main #envia
 git pull origin main #buscar atualização
 git branch #verificar a branch atual
 git checkout -b testes #muda | cria uma nova branch
+#entra na branch principal e efetua a marge
+git switch main #mudar de branch
+git merge testes #pegar os dados localmente 
+git push origin main #subir os para o github
+git branch -D testes #excluir a branch localmente
+git push origin testes --delete #excluir a branch no github
+git tag -a v1.4 -m “Versão 1.4” #criar uma nova tag
+git push origin v1.4 #enviar explicitamente as tags para o servidor remoto
+git tag #listar todas as tags do seu repositório
+git push -u origin nova-funcionalidade #criar uma branch remoto
